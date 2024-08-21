@@ -1,0 +1,26 @@
+#include<stdio.h>
+void main()
+{
+int n,i,count,x,a[50];
+count==0;
+printf("enter no of elements in array:");
+scanf("%d",&n);
+printf("enter the elements:");
+for(i=0;i<n;i++)
+{
+scanf("%d",&a[i]);
+}
+printf("enter element to be searched:");
+scanf("%d",&x);
+for(i=0;i<n;i++)
+{
+scanf("%d",&a[i]);
+}
+if (a[i]==x)
+{
+count++;
+}
+if(count>0)
+printf("element is found:");
+else printf("element is not found:");
+}
